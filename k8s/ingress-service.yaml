@@ -16,7 +16,7 @@ spec:
         - www.throwmyspaceback.com
       secretName: throwmyspaceback-com
   rules:
-    - host: throwmyspaceback-com
+    - host: throwmyspaceback.com
       http:
         paths:
           - path: /?(.*)
@@ -40,7 +40,7 @@ spec:
                 port:
                   number: 5000
 
-    - host: www.throwmyspaceback-com
+    - host: www.throwmyspaceback.com
       http:
         paths:
           - path: /?(.*)

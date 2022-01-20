@@ -12,7 +12,7 @@ metadata:
 spec:
   tls:
     - hosts:
-        - throwmyspaceback.com.com
+        - throwmyspaceback.com
         - www.throwmyspaceback.com
       secretName: throwmyspaceback-com
   rules:
